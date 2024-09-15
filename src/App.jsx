@@ -19,7 +19,7 @@ const App = () => {
       scrollTrigger: {
         trigger: container,
         start: "50% 50%",
-        end: "180% 50%",
+        end: "170% 50%",
         scrub: 2,
         pin: true,
         // markers: true, // Uncomment for debugging
