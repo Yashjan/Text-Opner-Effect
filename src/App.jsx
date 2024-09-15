@@ -29,9 +29,9 @@ const App = () => {
     tl.to("#center", { height: "100vh" }, "a")
       .to(".top", { top: "-50%" }, "a")
       .to(".bottom", { bottom: "-50%" }, "a")
-      // .to("#top-h1", { top: "60%" }, "a")
-      // .to("#bottom-h1", { bottom: "-30%" }, "a")
-      // .to(".content", { marginTop: "0%" });
+      .to("#top-h1", { top: "60%" }, "a")
+      .to("#bottom-h1", { bottom: "-30%" }, "a")
+      .to(".content", { marginTop: "0%" });
 
     // Cleanup on unmount
     return () => {
